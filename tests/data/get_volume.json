@@ -1,0 +1,17 @@
+{
+  "name" :" f1793968-584c-4f80-ab46-2cf364d1cac7",
+  "id" : "93aae166-0bc8-4524-b00b-a2b4c2811443",
+  "description" : "None",
+  "status" : "available",
+  "size" : 1,
+  "availability_zone" : "nova",
+  "cloud_meta": {
+                "created_at" : "2023-03-16T06:25:16.000000",
+                "updated_at" :" 2023-03-16T06:25:17.000000",
+                "volume_type" : "__DEFAULT__",
+                "snapshot_id" : "None",
+                "user_id" : "e8d8d8886ff6469ca5d3ac944ac4a20f",
+                "replication_status" : "None",
+                "group_id" : "None"
+}
+}

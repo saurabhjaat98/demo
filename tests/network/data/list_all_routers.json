@@ -1,0 +1,19 @@
+[
+  {
+    "uuid": "8c758401-af12-4f8b-9170-11c8c6eb9586",
+    "created_at": "2023-03-21 10:13:04",
+    "created_by": "uuu@yopmail.com",
+    "updated_at": "2023-03-21 10:13:05",
+    "name": "deo_knfjd",
+    "cloud": "noida-1",
+    "org_id": "9b28260a-ea8d-413b-a46b-0756a67267cf",
+    "project_id": "a0b90ca1-06a1-4e6c-99f9-0d7e2902b911",
+    "active": 1,
+    "admin_state_up": true,
+    "network_id": "a2096b3f-ae69-4809-bbc4-b9b7014dcdc5",
+    "enable_snat": true,
+    "availability_zone_hints": [
+      "nova"
+    ]
+  }
+]

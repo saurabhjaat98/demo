@@ -1,0 +1,24 @@
+title User Creation Flow Diagram
+fontawesome f268 CCP Portal/CLI #339933
+fontawesome f233 CCP Middleware #339933
+CCP Portal/CLI-->CCP Middleware:Request to create user
+fontawesome f084 Keycloak #339933
+CCP Middleware-->Keycloak: Create user in keycloak and assign roles
+Keycloak-#green>CCP Middleware: Success Response
+fontawesome f0c2 Cloud #339933
+fontawesome f0a0 Storage #339933
+CCP Middleware-->Cloud:Create user in Cloud and it to provided/default cloud
+Cloud-#green>CCP Middleware: Success Response
+CCP Middleware-->>Storage: Create user in storage
+Storage-#green>CCP Middleware:Success Response with storage credentials
+CCP Middleware-->>Keycloak:Update user's storage credentials in keycloak
+Keycloak-#green>CCP Middleware: Success Response
+CCP Middleware-->Keycloak: Add user into Keycloak group(org)
+Keycloak-#green>CCP Middleware:Success Response
+CCP Middleware-->Keycloak: Add user into Keycloak sub-group(project)
+Keycloak-#green>CCP Middleware:Success Response
+CCP Middleware-->Keycloak: Add role to user in Keycloak
+Keycloak-#green>CCP Middleware:Success Response
+CCP Middleware-->Keycloak: Send verification mail using keycloak SMTP
+Keycloak-#green>CCP Middleware:Verification mail received
+CCP Middleware-#green>CCP Portal/CLI:Success Response

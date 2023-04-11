@@ -1,0 +1,11 @@
+title Subnet Deletion Flow Diagram
+fontawesome f268 CCP Portal/CLI #339933
+fontawesome f233 CCP-Middleware #339933
+CCP Portal/CLI-->>CCP-Middleware:Request to delete subnet
+fontawesome f0c2 Cloud #339933
+CCP-Middleware-->>Cloud:Delete subnet in cloud
+Cloud-#green>CCP-Middleware:Success Response
+fontawesome f1c0 Mongo DB #339933
+CCP-Middleware-->>Mongo DB:Update active status to -1 in Mongo DB
+Mongo DB-#green>CCP-Middleware: Success Response
+CCP-Middleware-#green>CCP Portal/CLI:Success Response

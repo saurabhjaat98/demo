@@ -1,0 +1,52 @@
+{
+  "uuid": "46949179-8fef-45b4-b59a-d0822ae27cb9",
+  "name": "network6",
+  "cloud": "noida-1",
+  "reference_id": "e47fca4e-d50b-4b9a-bd69-76e8a2f91a17",
+  "created_by": "Admin",
+  "created_at": "2023-02-14 09:13:33",
+  "created_at_str": "2023-02-14 09:13:33",
+  "cloud_meta": {
+    "availability_zone_hints": [],
+    "availability_zones": [],
+    "created_at": "2023-02-14T03:44:18Z",
+    "description": "",
+    "dns_domain": null,
+    "ipv4_address_scope_id": null,
+    "ipv6_address_scope_id": null,
+    "is_admin_state_up": true,
+    "is_default": false,
+    "is_port_security_enabled": true,
+    "is_router_external": false,
+    "is_shared": true,
+    "mtu": 1450,
+    "name": "network6",
+    "project_id": "2bce1e548ee74eecb9698bcfe1dfebe8",
+    "provider_network_type": "vxlan",
+    "provider_physical_network": null,
+    "provider_segmentation_id": 551,
+    "qos_policy_id": null,
+    "segments": null,
+    "status": "ACTIVE",
+    "subnet_ids": [],
+    "updated_at": "2023-02-14T03:44:18Z",
+    "is_vlan_transparent": null,
+    "revision_number": 1,
+    "id": "e47fca4e-d50b-4b9a-bd69-76e8a2f91a17",
+    "location": {
+      "cloud": "noida-1",
+      "region_name": "RegionOne",
+      "zone": null,
+      "project": {
+        "id": "2bce1e548ee74eecb9698bcfe1dfebe8",
+        "name": "admin",
+        "domain_id": "default",
+        "domain_name": null
+      }
+    },
+    "tags": []
+  },
+  "active": 1,
+  "admin_state_up": true,
+  "shared": true
+}

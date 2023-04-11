@@ -1,0 +1,43 @@
+{
+    "uuid": "0da2aae7-0d8a-4b9a-af67-bbdcbfbb44c7",
+    "name": "abdac",
+    "tenant_id": "2bce1e548ee74eecb9698bcfe1dfebe8",
+    "description": "Securitygroup_description",
+    "created_at": "2023-03-02T11:24:52Z",
+    "updated_at": "2023-03-02T11:24:52Z",
+    "project_id": "2bce1e548ee74eecb9698bcfe1dfebe8",
+    "cloud_meta":{
+        "security_group_rules": [
+            {
+                "id": "352b6b04-1863-47b3-8cdf-949f667d33dc",
+                "tenant_id": "2bce1e548ee74eecb9698bcfe1dfebe8",
+                "security_group_id": "0da2aae7-0d8a-4b9a-af67-bbdcbfbb44c7",
+                "ethertype": "IPv6",
+                "direction": "egress",
+                "protocol": null,
+                "port_range_min": null,
+                "port_range_max": null,
+                "remote_ip_prefix": null,
+                "remote_group_id": null,
+                "description": null,
+                "tags": [],
+                "created_at": "2023-03-02T11:24:52Z",
+                "updated_at": "2023-03-02T11:24:52Z",
+                "revision_number": 0,
+                "project_id": "2bce1e548ee74eecb9698bcfe1dfebe8"
+            }
+        ],
+        "tags": [],
+        "revision_number": 1,
+        "location": {
+            "cloud": "",
+            "region_name": "RegionOne",
+            "zone": null,
+            "project": {
+                "id": "2bce1e548ee74eecb9698bcfe1dfebe8",
+                "name": "admin",
+                "domain_id": "default",
+                "domain_name": null
+            }
+        }}
+}

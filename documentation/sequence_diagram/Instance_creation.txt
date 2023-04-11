@@ -1,0 +1,11 @@
+title Instance Creation Flow Diagram
+fontawesome f268 CCP Portal/CLI #339933
+fontawesome f233 CCP-Middleware #339933
+CCP Portal/CLI-->>CCP-Middleware:Request to Create Instance
+fontawesome f0c2 Cloud #339933
+CCP-Middleware-->>Cloud:Create Instance in Cloud
+Cloud-#green>CCP-Middleware:Success Response
+fontawesome f1c0 Mongo DB #339933
+CCP-Middleware-->>Mongo DB:Save the instance in the MongoDb
+Mongo DB-#green>CCP-Middleware:Success Response
+CCP-Middleware-#green>CCP Portal/CLI:Success Response

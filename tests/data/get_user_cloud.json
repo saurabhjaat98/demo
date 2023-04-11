@@ -1,0 +1,14 @@
+{
+  "email": "demo_004@yopmail.com",
+  "description" : "xyzf abc",
+  "id" : "4a40baf6f8d24d579002c7088a57826f",
+  "name": "test",
+  "domain_id" : "default",
+  "enabled" : true,
+  "default_project_id" : "8760f964f8f14a27989f768fef6b17e6",
+  "password_expires_at" : "None",
+  "links" : {"self": "http://192.168.100.35:5000/v3/users/4a40baf6f8d24d579002c7088a57826f"},
+  "location" :{"cloud": "", "region_name": "RegionOne", "zone": "None",
+  "project": {"id": "2bce1e548ee74eecb9698bcfe1dfebe8", "name": "admin",
+  "domain_id": "default", "domain_name": "None"}}
+}

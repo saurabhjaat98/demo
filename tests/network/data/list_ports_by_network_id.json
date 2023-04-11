@@ -1,0 +1,14 @@
+[
+    {
+        "uuid": "001ee30f-198a-421f-a487-5d3c6e32a0be",
+        "name": "myport123",
+        "cloud": "noida-1",
+        "network_id": "0aff7b6d-e82f-460d-a331-f0ec102cb985",
+        "admin_state_up": true,
+        "status": "ACTIVE",
+        "created_at": "2023-02-21T07:55:03Z",
+        "updated_at": "2023-02-21T07:55:03Z",
+        "mac_address": "fa:16:3e:fa:70:b6",
+        "project_id": "2bce1e548ee74eecb9698bcfe1dfebe8"
+    }
+]

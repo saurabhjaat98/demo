@@ -1,0 +1,12 @@
+[
+  {
+    "uuid": "46949179-8fef-45b4-b59a-d0822ae27cb9",
+    "name": "test_network",
+    "cloud": "noida-1",
+    "created_by": "Admin",
+    "created_at": "2023-02-14 09:13:33",
+    "created_at_str": "2023-02-14 09:13:33",
+    "admin_state_up": true,
+    "shared": true
+  }
+]

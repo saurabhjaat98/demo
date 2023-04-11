@@ -1,0 +1,49 @@
+{
+  "uuid": "669a2898-ac12-4391-bc62-281157358dbb",
+  "name": "myport123",
+  "network_id": "423418d7-277f-41c7-9503-c3f60fba64e7",
+  "admin_state_up": true,
+  "status": "ACTIVE",
+  "created_at": "2023-03-14T08:29:33Z",
+  "updated_at": "2023-03-14T08:29:37Z",
+  "fixed_ips":
+   [
+     {
+      "subnet_id": "faf17612-d82d-4550-85a9-e151ced3db8c",
+      "ip_address": "192.168.0.2"
+     }
+   ],
+  "mac_address": "fa:16:3e:e2:ce:00",
+  "project_id": "2bce1e548ee74eecb9698bcfe1dfebe8",
+  "cloud_meta": {
+  "allowed_address_pairs": [],
+  "extra_dhcp_opts": [],
+  "security_groups": [],
+  "description": "",
+  "device_id": "dhcpd3936df3-cbd6-52b7-8a52-e77f5925a1b7-423418d7-277f-41c7-9503-c3f60fba64e7",
+  "device_owner": "network:dhcp",
+  "binding:vnic_type": "normal",
+  "binding:profile": {},
+  "binding:host_id": "aio1",
+  "binding:vif_type": "bridge",
+  "binding:vif_details":
+    {
+      "connectivity": "l2",
+      "port_filter": true
+    },
+  "port_security_enabled": false,
+  "tags": [],
+  "revision_number": 4,
+  "tenant_id": "2bce1e548ee74eecb9698bcfe1dfebe8",
+  "location": {
+  "cloud": "",
+  "region_name": "RegionOne",
+  "zone": null,
+  "project": {
+  "id": "2bce1e548ee74eecb9698bcfe1dfebe8",
+  "name": "admin",
+  "domain_id": "default",
+  "domain_name": null
+ }
+}
+}}

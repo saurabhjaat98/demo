@@ -1,0 +1,35 @@
+title Onboarding Using Super Admin
+fontawesome f268 CCP Portal/CLI #339933
+fontawesome f233 CCP Middleware #339933
+CCP Portal/CLI-->>CCP Middleware:Request to onboard organisation
+fontawesome f084 Keycloak #339933
+CCP Middleware-->>Keycloak:Create group in Keycloak
+CCP Middleware<#green-Keycloak:Success Response
+fontawesome f1c0 Mondo DB #339933
+CCP Middleware-->>Mondo DB:Save org in Mongo DB
+Mondo DB-#green>CCP Middleware:Success Response
+CCP Middleware-->>Keycloak:Create sub-group(project) in keycloak and attach it to the provided group
+fontawesome f0c2 Cloud #339933
+Keycloak-#green>CCP Middleware:Success Response
+CCP Middleware-->>Cloud:Create project in cloud
+Cloud-#green>CCP Middleware:Success Response
+CCP Middleware-->>Mondo DB:Save project with  **default**  name in Mongo DB
+Mondo DB-#green>CCP Middleware:Success Response
+CCP Middleware-->>Keycloak: Create user in keycloak and assign roles
+Keycloak-#green>CCP Middleware: Success Response
+CCP Middleware-->>Cloud:Create user in default Cloud and it into the default project
+Cloud-#green>CCP Middleware: Success Response
+fontawesome f0a0 Storage #339933
+CCP Middleware-->>Storage: Create user in storage
+Storage-#green>CCP Middleware:Success Response with storage credentials
+CCP Middleware-->>Keycloak:Update user's storage credentials in keycloak
+Keycloak-#green>CCP Middleware:Success Response
+CCP Middleware-->>Keycloak: Add user into Keycloak group(org)
+Keycloak-#green>CCP Middleware:Success Response
+CCP Middleware-->>Keycloak: Add user into Keycloak sub-group(project)
+Keycloak-#green>CCP Middleware:Success Response
+CCP Middleware-->>Keycloak: Add role to user in Keycloak
+Keycloak-#green>CCP Middleware:Success Response
+CCP Middleware-->>Keycloak: Send verification mail using keycloak SMTP
+Keycloak-#green>CCP Middleware:Verification mail received
+CCP Middleware-#green>CCP Portal/CLI:Success Response

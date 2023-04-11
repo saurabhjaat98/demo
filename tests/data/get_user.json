@@ -1,0 +1,15 @@
+{
+  "email": "demo_004@yopmail.com",
+  "first_name": "test",
+  "last_name": "name",
+  "username": "demo_004@yopmail.com",
+  "email_verified": true,
+  "created_at": "2023-03-27 12:52:02",
+  "secret_key": "Eced7TvkPcxrnRfQj4odCvjjEyiEKDLLiDcbchGD",
+  "profile_completed": "true",
+  "mobile_number": "9999999999",
+  "access_key": "EPK480CTCTY92W1ST1AG",
+  "roles": [
+    "org-admin"
+  ]
+}

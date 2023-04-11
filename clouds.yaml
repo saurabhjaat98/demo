@@ -1,0 +1,48 @@
+clouds:
+  noida-1:
+    uuid: 7a01534e-ff2a-485d-8961-de8aeb17522b
+    cloud_name: noida-1
+    auth:
+      auth_url: http://192.168.100.35:5000/v3
+      username: admin
+      password: b8e24dd9c77956435cd92e3ef14d765112e9452c
+      project_name: admin
+      project_domain_id: default
+      user_domain_id: default
+    region_name: RegionOne
+    type: openstack
+    identity_api_version: 3
+    interface: public
+    default: True
+
+
+  noida-2:
+      uuid: 7a01534e-ff2a-485d-8961-de8aeb17522a
+      cloud_name: noida-2
+      auth:
+        auth_url: http://192.168.100.184:5000/v3
+        username: admin
+        password: 0c840f01ad342c5104eba1f32d545f88218c3770208c73d8a46593f1bd57a7
+        project_name: admin
+        project_domain_id: default
+        user_domain_id: default
+      region_name: RegionOne
+      type: openstack
+      identity_api_version: 3
+      interface: public
+
+
+  noida-3:
+    uuid: 547ee1cc-a56f-4fb1-9567-7c7cdfa7ce6a
+    cloud_name: noida-3
+    auth:
+      auth_url: http://43.204.110.93:5000/v3
+      username: admin
+      password: 586ba498b984415d36607c893b1cf342985321c409dee
+      project_name: admin
+      project_domain_id: default
+      user_domain_id: default
+    region_name: RegionOne
+    type: openstack
+    identity_api_version: 3
+    interface: public

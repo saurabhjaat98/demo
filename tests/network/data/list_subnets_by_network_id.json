@@ -1,0 +1,25 @@
+[
+  {
+    "uuid": "6e4f6263-8205-4211-9e30-64771a320fae",
+    "name": "check_subnet",
+    "cloud": "noida-1",
+    "created_at": "2023-02-17 16:24:54",
+    "created_at_str": "2023-02-17 16:24:54",
+    "active": 1,
+    "network_id": "f5ec1221-bdf0-42c8-a537-d512c3f8e9cf",
+    "cidr": "192.168.199.255/24",
+    "ip_version": 4,
+    "enable_dhcp": true,
+    "gateway_ip": "192.168.199.1",
+    "disable_gateway_ip": true,
+    "allocation_pools": [
+      "192.168.199.2,192.168.199.254"
+    ],
+    "dns_nameservers": [
+      "string"
+    ],
+    "host_routes": [
+      "string"
+    ]
+  }
+]

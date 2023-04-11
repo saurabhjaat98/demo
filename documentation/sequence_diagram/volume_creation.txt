@@ -1,0 +1,11 @@
+title Volume Creation Flow Diagram
+fontawesome f268 CCP Portal/CLI #339933
+fontawesome f233 CCP-Middleware #339933
+CCP Portal/CLI-->>CCP-Middleware:Request to create Volume
+fontawesome f0c2 Cloud #339933
+CCP-Middleware-->>Cloud:Create the volume in the Cloud
+Cloud-#green>CCP-Middleware:Success Response
+fontawesome f1c0 Mongo DB #339933
+CCP-Middleware-->>Mongo DB:Create the Volume in the mongo db
+Mongo DB-#green>CCP-Middleware:Success Response
+CCP-Middleware-#green>CCP Portal/CLI:Success Response

@@ -1,0 +1,8 @@
+title Remove member from a group
+fontawesome f268 CCP Portal/CLI #339933
+fontawesome f233 CCP-Middleware #339933
+CCP Portal/CLI-->>CCP-Middleware:Request to remove member
+fontawesome f084 Keycloak #339933
+CCP-Middleware-->>Keycloak: Remove member from Keycloak group(org)
+Keycloak-#green>CCP-Middleware: Success Response
+CCP-Middleware-#green>CCP Portal/CLI:Success Response

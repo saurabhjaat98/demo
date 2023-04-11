@@ -1,0 +1,12 @@
+[
+  {
+  "uuid": "352b6b04-1863-47b3-8cdf-949f667d33dc",
+  "tenant_id": "2bce1e548ee74eecb9698bcfe1dfebe8",
+  "security_group_id": "0da2aae7-0d8a-4b9a-af67-bbdcbfbb44c7",
+  "project_id": "2bce1e548ee74eecb9698bcfe1dfebe8",
+  "created_at": "2023-03-02T11:24:52Z",
+  "updated_at": "2023-03-02T11:24:52Z",
+  "ethertype": "IPv6",
+  "direction": "egress"
+  }
+]

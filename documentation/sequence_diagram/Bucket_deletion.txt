@@ -1,0 +1,11 @@
+title Bucket Deletion Flow Diagram
+fontawesome f268 CCP Portal/CLI #339933
+fontawesome f233 CCP-Middleware #339933
+CCP Portal/CLI-->>CCP-Middleware:Request to delete Bucket
+fontawesome f0a0 Storage #339933
+CCP-Middleware-->>Storage:Delete the bucket from the ceph-cluster
+Storage-#green>CCP-Middleware:Success Response
+fontawesome f1c0 Mongo DB #339933
+CCP-Middleware-->>Mongo DB:Update active status to -1 in mongodb
+Mongo DB-#green>CCP-Middleware:Success Response
+CCP-Middleware-#green>CCP Portal/CLI:Success Response

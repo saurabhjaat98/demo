@@ -1,0 +1,8 @@
+title User Remove role Flow Diagram
+fontawesome f268 CCP Portal/CLI #339933
+fontawesome f233 CCP-Middleware #339933
+CCP Portal/CLI-->>CCP-Middleware:Request to remove role of User
+fontawesome f084 Keycloak #339933
+CCP-Middleware-->>Keycloak:Remove role of user in keycloak
+Keycloak-#green>CCP-Middleware:Success Response
+CCP-Middleware-#green>CCP Portal/CLI:Success Response

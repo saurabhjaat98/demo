@@ -1,0 +1,11 @@
+title Add member in project Flow Diagram
+fontawesome f268 CCP Portal/CLI #339933
+fontawesome f233 CCP-Middleware #339933
+CCP Portal/CLI-->>CCP-Middleware:Request to add member
+fontawesome f084 Keycloak #339933
+CCP-Middleware-->>Keycloak: Add member to Keycloak Sub-group(project)
+Keycloak-#green>CCP-Middleware: Success Response
+fontawesome f0c2 Cloud #339933
+CCP-Middleware-->>Cloud:Add member to Project in Cloud
+Cloud-#green>CCP-Middleware:Success Response
+CCP-Middleware-#green>CCP Portal/CLI:Success Response

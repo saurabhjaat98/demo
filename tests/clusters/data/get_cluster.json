@@ -1,0 +1,53 @@
+{
+  "uuid": "923945f9-2976-44e8-9811-281b9e33ac2f",
+  "created_by": "raj_aws@yopmail.com",
+  "name": "cluster_003",
+  "cloud": "noida-3",
+  "org_id": "00402141-cbad-49f4-b769-a577d0fede49",
+  "project_id": "47225986-7426-44cd-aee3-1822c5f1e1a6",
+  "reference_id": "8d226636-224d-46c0-b257-62116d4818f9",
+  "active": 1,
+  "cluster_template_id": "271adf84-36c4-4910-bad5-767edf358622",
+  "master_count": 1,
+  "master_flavor_id": "m1.small",
+  "node_count": 1,
+  "flavor_id": "m1.small",
+  "cloud_meta": {
+    "api_address": null,
+    "cluster_template_id": "271adf84-36c4-4910-bad5-767edf358622",
+    "coe_version": null,
+    "create_timeout": null,
+    "created_at": null,
+    "discovery_url": null,
+    "fixed_network": null,
+    "fixed_subnet": null,
+    "flavor_id": "m1.small",
+    "is_floating_ip_enabled": null,
+    "is_master_lb_enabled": null,
+    "keypair": null,
+    "labels": null,
+    "master_addresses": null,
+    "master_count": 1,
+    "master_flavor_id": "m1.small",
+    "name": "cluster_003",
+    "node_count": 1,
+    "node_addresses": null,
+    "stack_id": null,
+    "status": null,
+    "status_reason": null,
+    "updated_at": null,
+    "uuid": "8d226636-224d-46c0-b257-62116d4818f9",
+    "id": "8d226636-224d-46c0-b257-62116d4818f9",
+    "location": {
+      "cloud": "",
+      "region_name": "RegionOne",
+      "zone": null,
+      "project": {
+        "id": "ddf355b93ae240d7876b13b9d1d36116",
+        "name": "admin",
+        "domain_id": "default",
+        "domain_name": null
+      }
+    }
+  }
+}

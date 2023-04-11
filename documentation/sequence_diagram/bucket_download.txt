@@ -1,0 +1,8 @@
+title Bucket Download Object Flow Diagram
+fontawesome f268 CCP Portal/CLI #339933
+fontawesome f233 CCP-Middleware #339933
+CCP Portal/CLI-->>CCP-Middleware:Request to download object from Bucket
+fontawesome f0a0 Storage #339933
+CCP-Middleware-->>Storage:Request to download the Bucket download object from ceph-cluster
+Storage-#green>CCP-Middleware:Success Response
+CCP-Middleware-#green>CCP Portal/CLI:Success Response

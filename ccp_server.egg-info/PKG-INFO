@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ccp-server
+Version: 1.0.0
+Summary: CCP API Server
+Home-page: www.coredge.io
+Author: Coredge.io India Pvt Ltd.
+Author-email: info@coredge.io
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Proprietary
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10

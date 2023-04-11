@@ -1,0 +1,31 @@
+{"uuid" : "1f7ffd3d-ca8c-422c-9748-b5684f186351",
+  "name" : "user_0009",
+  "description" : "description",
+  "cloud": "noida-1",
+  "external_id": "7a9ad55f-3b8a-484b-bf4b-f2de331dbaa7",
+  "default_cloud": "noida-1",
+  "tan_number" : "PDES03028F",
+  "gst_number": "43YTREY9876A1Z0",
+  "cloud_meta" : {
+                  "created_by": "Admin",
+                  "created_at": "2023-03-27 12:36:49",
+                  "active": 1,
+                  "communication_address": {"address_line1" : "pqr_nr",
+                            "address_line2": "pqabcf",
+                            "city": "qwe",
+                            "state": "der",
+                            "country": "fgh",
+                            "postal_code" : "123432",
+                            "landmark": "sector-1",
+                            "mobile_number": ""},
+                  "billing_address": {"address_line1" : "pqr_nr",
+                            "address_line2": "pqabcf",
+                            "city" : "qwe",
+                            "state": "der",
+                            "country" : "fgh",
+                            "landmark": "sector-1",
+                            "mobile_number": ""
+                  }
+
+  }
+}

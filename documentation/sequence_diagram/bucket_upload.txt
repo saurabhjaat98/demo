@@ -1,0 +1,10 @@
+title Bucket Upload Object Flow Diagram
+fontawesome f268 CCP Portal/CLI #339933
+fontawesome f233 CCP-Middleware #339933
+CCP Portal/CLI-->>CCP-Middleware:Request to Add member
+fontawesome f084 Keycloak #339933
+CCP-Middleware-->>Keycloak:Add member to keycloak group(org)
+fontawesome f0c2 Cloud #339933
+Keycloak-#green>CCP-Middleware:Success Response
+CCP-Middleware-->>Cloud:Add member to keycloak group(org)
+CCP-Middleware-#green>CCP Portal/CLI:Success Response

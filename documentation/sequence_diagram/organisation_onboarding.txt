@@ -1,0 +1,47 @@
+title Organisation Onboarding (Self Mode)
+
+
+group Step 1: Organisation creation with minimum info
+fontawesome f268 CCP Portal/CLI #339933
+fontawesome f233 CCP Middleware #339933
+CCP Portal/CLI-->>CCP Middleware:Request to onboard organisation
+fontawesome f084 Keycloak #339933
+CCP Middleware-->>Keycloak:Create user in Keycloak
+CCP Middleware<#green-Keycloak:Success Response
+CCP Middleware-->>Keycloak:Create group(org) in Keycloak
+Keycloak-#green>CCP Middleware:Success Response
+
+fontawesome f1c0 Mondo DB #339933
+database Mondo DB
+CCP Middleware-->>Mondo DB:Save org in Mongo DB
+Mondo DB-#green>CCP Middleware:Success Response
+CCP Middleware-->>Keycloak:Add user in Keycloak Group(org)
+Keycloak-#green>CCP Middleware:Success Response
+CCP Middleware-->>Keycloak:Assign  **org-admin**  Role to user in Keycloak
+Keycloak-#green>CCP Middleware:Success Response
+CCP Middleware->CCP Portal/CLI: Email send to user to verify email and set the password
+end
+fontawesome f0c2 Cloud #339933
+create Cloud
+fontawesome f0a0 Storage #339933
+create Storage
+group Step 2:After email verification: Complete profile
+CCP Portal/CLI-->>CCP Middleware:Request for Complete profile
+CCP Middleware-->>Keycloak:Create sub-group(project) in keycloak
+Keycloak-#green>CCP Middleware:Success Response
+CCP Middleware-->>Cloud:Create project in cloud
+Cloud-#green>CCP Middleware:Success Response
+CCP Middleware-->>Mondo DB:Save project with  **default**  name in Mongo DB
+Mondo DB-#green>CCP Middleware:Success Response
+CCP Middleware-->>Cloud:Create user in cloud and assign  **member**  role
+Cloud-#green>CCP Middleware: Success Response
+CCP Middleware-->>Storage:Create user in storage
+Storage-#green>CCP Middleware:Success Response with storage credentials
+CCP Middleware-->>Keycloak:Update user's storage credentials in keycloak
+Keycloak-#green>CCP Middleware:Success Response
+CCP Middleware-->>Keycloak:User adding in sub-group(project) in keycloak
+Keycloak-#green>CCP Middleware:Success Response
+CCP Middleware->Keycloak:Set **profile_complete** status as **True**
+Keycloak-#green>CCP Middleware:Success Response
+CCP Middleware-#green>CCP Portal/CLI:Success Response
+end

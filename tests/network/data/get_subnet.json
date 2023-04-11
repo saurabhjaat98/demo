@@ -1,0 +1,67 @@
+{
+  "uuid": "6e4f6263-8205-4211-9e30-64771a320fae",
+  "name": "check_subnet",
+  "cloud": "noida-1",
+  "reference_id": "4a8da676-7243-45a7-846f-fb7421b21862",
+  "created_at": "2023-02-17 16:24:54",
+  "created_at_str": "2023-02-17 16:24:54",
+  "cloud_meta": {
+    "allocation_pools": [
+      {
+        "start": "192.168.199.2",
+        "end": "192.168.199.254"
+      }
+    ],
+    "cidr": "192.168.199.0/24",
+    "created_at": "2023-02-17T11:01:50Z",
+    "description": "",
+    "dns_nameservers": [],
+    "dns_publish_fixed_ip": null,
+    "gateway_ip": "192.168.199.1",
+    "host_routes": [],
+    "ip_version": 4,
+    "ipv6_address_mode": null,
+    "ipv6_ra_mode": null,
+    "is_dhcp_enabled": false,
+    "name": "check_subnet",
+    "network_id": "f5ec1221-bdf0-42c8-a537-d512c3f8e9cf",
+    "prefix_length": null,
+    "project_id": "2bce1e548ee74eecb9698bcfe1dfebe8",
+    "tenant_id": "2bce1e548ee74eecb9698bcfe1dfebe8",
+    "segment_id": null,
+    "service_types": [],
+    "subnet_pool_id": null,
+    "updated_at": "2023-02-17T11:01:50Z",
+    "use_default_subnet_pool": null,
+    "revision_number": 0,
+    "id": "4a8da676-7243-45a7-846f-fb7421b21862",
+    "location": {
+      "cloud": "",
+      "region_name": "RegionOne",
+      "zone": null,
+      "project": {
+        "id": "2bce1e548ee74eecb9698bcfe1dfebe8",
+        "name": "admin",
+        "domain_id": "default",
+        "domain_name": null
+      }
+    },
+    "tags": []
+  },
+  "active": 1,
+  "network_id": "f5ec1221-bdf0-42c8-a537-d512c3f8e9cf",
+  "cidr": "192.168.199.255/24",
+  "ip_version": 4,
+  "enable_dhcp": true,
+  "gateway_ip": "192.168.199.1",
+  "disable_gateway_ip": true,
+  "allocation_pools": [
+    "192.168.199.2,192.168.199.254"
+  ],
+  "dns_nameservers": [
+    "string"
+  ],
+  "host_routes": [
+    "string"
+  ]
+}

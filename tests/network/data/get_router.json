@@ -1,0 +1,42 @@
+{
+    "uuid": "0a1e851b-731f-4f07-81d1-5f86790914f9",
+    "name": "test_router1",
+    "admin_state_up": true,
+    "status": "ACTIVE",
+    "created_at": "2023-03-02T01:09:42Z",
+    "updated_at": "2023-03-02T01:09:43Z",
+    "external_gateway_info": {
+        "network_id": "0aff7b6d-e82f-460d-a331-f0ec102cb985",
+        "external_fixed_ips": [
+            {
+                "subnet_id": "d239d61b-a22c-4742-92ca-f92682c43d47",
+                "ip_address": "172.29.249.131"
+            }
+        ],
+        "enable_snat": true
+    },
+    "description": "",
+    "availability_zones": [
+        "nova"
+    ],
+    "cloud_meta": {
+        "ha": false,
+        "availability_zone_hints": [],
+        "routes": [],
+        "flavor_id": null,
+        "tags": [],
+        "revision": 3,
+        "project_id": "2bce1e548ee74eecb9698bcfe1dfebe8",
+        "tenant_id": "2bce1e548ee74eecb9698bcfe1dfebe8",
+        "location": {
+            "cloud": "",
+            "region_name": "RegionOne",
+            "zone": null,
+            "project": {
+                "id": "2bce1e548ee74eecb9698bcfe1dfebe8",
+                "name": "admin",
+                "domain_id": "default",
+                "domain_name": null
+            }
+      }
+}}

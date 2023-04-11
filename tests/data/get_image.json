@@ -1,0 +1,22 @@
+{
+"name" : "cirros",
+"id" : "47ddaec1-c621-4058-9684-aa31ce46a478",
+"disk_format" : "qcow2",
+"container_format" : "bare",
+"visibility" : "public",
+"size":"12716032",
+"status" : "active",
+"owner" : "2bce1e548ee74eecb9698bcfe1dfebe8",
+"cloud_meta" : {
+       "checksum" : "443b7623e27ecf03dc9e01ee93f67afe",
+       "protected" : "False",
+       "min_ram" : 0,
+       "min_disk" : 0,
+       "created_at" : "2023-02-27T12:49:04Z",
+       "updated_at" : "2023-02-27T12:49:04Z",
+       "schema" : "/v2/schemas/image",
+       "properties" : {"owner_specified.openstack.md5": "443b7623e27ecf03dc9e01ee93f67afe",
+       "owner_specified.openstack.object": "images/cirros",
+       "owner_specified.openstack.sha256": "a8dd75ecffd4cdd96072d60c2237b448e0c8b2bc94d57f10fdbc8c481d9005b8"}
+}
+}

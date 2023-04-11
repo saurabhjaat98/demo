@@ -1,0 +1,43 @@
+{
+  "uuid": "9dda2736-a08f-4231-9915-089662131545",
+  "cloud": "noida-1",
+  "reference_id": "65605ed7-f879-4183-b799-515c5bf62f87",
+  "created_by": "Admin",
+  "created_at": "2023-03-06 17:12:13",
+  "created_at_str": "2023-03-06 17:12:13",
+  "cloud_meta": {
+    "created_at": "2023-03-06T11:44:22Z",
+    "description": "",
+    "dns_domain": null,
+    "dns_name": null,
+    "fixed_ip_address": null,
+    "floating_ip_address": "100.10.10.230",
+    "name": "100.10.10.230",
+    "floating_network_id": "981295e8-78a8-449c-8127-48d0a5d1a72b",
+    "port_details": null,
+    "port_id": null,
+    "qos_policy_id": null,
+    "project_id": "2bce1e548ee74eecb9698bcfe1dfebe8",
+    "tenant_id": "2bce1e548ee74eecb9698bcfe1dfebe8",
+    "router_id": null,
+    "status": "DOWN",
+    "updated_at": "2023-03-06T11:44:22Z",
+    "subnet_id": null,
+    "revision_number": 0,
+    "id": "65605ed7-f879-4183-b799-515c5bf62f87",
+    "location": {
+      "cloud": "",
+      "region_name": "RegionOne",
+      "zone": null,
+      "project": {
+        "id": "2bce1e548ee74eecb9698bcfe1dfebe8",
+        "name": "admin",
+        "domain_id": "default",
+        "domain_name": null
+      }
+    },
+    "tags": []
+  },
+  "active": 1,
+  "network_id": "981295e8-78a8-449c-8127-48d0a5d1a72b"
+}

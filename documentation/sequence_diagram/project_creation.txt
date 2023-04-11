@@ -1,0 +1,18 @@
+title Project Creation Flow Diagram
+fontawesome f268 CCP Portal/CLI #339933
+fontawesome f233 CCP-Middleware #339933
+CCP Portal/CLI-->CCP-Middleware:Request to create project
+fontawesome f084 Keycloak #339933
+CCP-Middleware-->Keycloak: Create sub-group(project) in keycloak
+fontawesome f0c2 Cloud #339933
+fontawesome f1c0 Mongo DB #339933
+Keycloak-#green>CCP-Middleware:Success Response
+CCP-Middleware-->Cloud:Create project in Cloud
+Cloud-#green>CCP-Middleware: Success Response
+CCP-Middleware-->>Mongo DB: Save project with  **default**  name in Mongo DB
+Mongo DB-#green>CCP-Middleware: Success Response
+CCP-Middleware-->Keycloak: Add user into Keycloak sub-group(project)
+Keycloak-#green>CCP-Middleware:Success Response
+CCP-Middleware-->>Cloud: Add user in cloud project
+Cloud-#green>CCP-Middleware: Success Response
+CCP-Middleware-#green>CCP Portal/CLI:Success Response
